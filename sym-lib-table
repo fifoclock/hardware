@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Clock_Symbols)(type Legacy)(uri ${KIPRJMOD}/Clock_Symbols.lib)(options "")(descr ""))
+  (lib (name LED_Bar_Clock-rescue)(type Legacy)(uri ${KIPRJMOD}/LED_Bar_Clock-rescue.lib)(options "")(descr ""))
+)

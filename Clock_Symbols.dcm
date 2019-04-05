@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SW_5_Way
+D 5-Way Momentary Switch
+K 5 switch joystick
+$ENDCMP
+#
+#End Doc Library
