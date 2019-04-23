@@ -12,6 +12,9 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 
+# cache files
+fp-info-cache
+
 # Netlist files (exported from Eeschema)
 *.net
 
