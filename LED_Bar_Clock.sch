@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:LED_Bar_Clock-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -81,7 +81,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED_Bar_Clock-rescue:USB_C_Receptacle_USB2.0-Connector J?
+L Connector:USB_C_Receptacle_USB2.0 J?
 U 1 1 5BF122DB
 P 3900 1150
 F 0 "J?" V 3959 1880 50  0000 L CNN
