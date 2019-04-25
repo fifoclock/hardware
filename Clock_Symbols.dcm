@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP SKHMQKE010
+D Alps SKHMQKE010 SPST Switch
+K Alps SPST switch
+F https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHMQKE010_C202416.pdf
+$ENDCMP
+#
 $CMP SW_5_Way
 D 5-Way Momentary Switch
 K 5 switch joystick
