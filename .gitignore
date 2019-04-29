@@ -15,9 +15,6 @@ _autosave-*
 # cache files
 fp-info-cache
 
-# Netlist files (exported from Eeschema)
-*.net
-
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
