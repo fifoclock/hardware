@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:LED_Bar_Clock-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1037,17 +1037,6 @@ F 3 "" H 4600 4450 50  0001 C CNN
 	1    4600 4450
 	1    0    0    -1  
 $EndComp
-$Comp
-L LED_Bar_Clock-rescue:SW_5_Way-Clock_Symbols SW2
-U 1 1 5CACD44D
-P 4350 2950
-F 0 "SW2" H 4070 2975 50  0000 R CNN
-F 1 "SW_5_Way" H 4070 2884 50  0000 R CNN
-F 2 "" H 4325 2975 50  0001 C CNN
-F 3 "" H 4325 2975 50  0001 C CNN
-	1    4350 2950
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	2850 6350 2700 6350
 Wire Wire Line
@@ -1759,4 +1748,15 @@ Wire Wire Line
 	2700 4050 3750 4050
 Wire Wire Line
 	2850 3950 4100 3950
+$Comp
+L Clock_Symbols:SW_5_Way SW?
+U 1 1 5CC8B05F
+P 4350 2950
+F 0 "SW?" H 4070 2975 50  0000 R CNN
+F 1 "SW_5_Way" H 4070 2884 50  0000 R CNN
+F 2 "" H 4325 2975 50  0001 C CNN
+F 3 "" H 4325 2975 50  0001 C CNN
+	1    4350 2950
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
