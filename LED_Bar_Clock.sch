@@ -1749,10 +1749,10 @@ F 3 "" H 4325 2975 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Clock_Symbols:U262-16XN-4BVC11 J?
+L Clock_Symbols:U262-16XN-4BVC11 J1
 U 1 1 5CC92605
 P 3900 1150
-F 0 "J?" V 3961 1880 50  0000 L CNN
+F 0 "J1" V 3961 1880 50  0000 L CNN
 F 1 "U262-16XN-4BVC11" V 4052 1880 50  0000 L CNN
 F 2 "Clock_Footprints:U262-16XN-4BVC11" H 4050 1150 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4050 1150 50  0001 C CNN
