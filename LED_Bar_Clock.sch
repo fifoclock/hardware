@@ -80,17 +80,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    7200 1700
 	0    -1   -1   0   
 $EndComp
-$Comp
-L LED_Bar_Clock-rescue:USB_C_Receptacle_USB2.0-Connector J1
-U 1 1 5BF122DB
-P 3900 1150
-F 0 "J1" V 3959 1880 50  0000 L CNN
-F 1 "USB2.0 Type C Receptacle" V 4050 1880 50  0000 L CNN
-F 2 "Clock_Footprints:U262-16XN-4BVC11" H 4050 1150 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4050 1150 50  0001 C CNN
-	1    3900 1150
-	0    1    1    0   
-$EndComp
 Text Notes 7320 7520 0    79   ~ 0
 LED Bar Clock
 Text Notes 10570 7640 0    50   ~ 0
@@ -1758,5 +1747,16 @@ F 2 "Clock_Footprints:K1-5203UA-01" H 4325 2975 50  0001 C CNN
 F 3 "" H 4325 2975 50  0001 C CNN
 	1    4350 2950
 	-1   0    0    -1  
+$EndComp
+$Comp
+L Clock_Symbols:U262-16XN-4BVC11 J?
+U 1 1 5CC92605
+P 3900 1150
+F 0 "J?" V 3961 1880 50  0000 L CNN
+F 1 "U262-16XN-4BVC11" V 4052 1880 50  0000 L CNN
+F 2 "Clock_Footprints:U262-16XN-4BVC11" H 4050 1150 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4050 1150 50  0001 C CNN
+	1    3900 1150
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
