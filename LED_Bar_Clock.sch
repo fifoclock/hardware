@@ -891,17 +891,6 @@ Wire Wire Line
 	9900 1650 9900 1850
 NoConn ~ 1700 6450
 $Comp
-L power:+5V #PWR0155
-U 1 1 5CA24AC6
-P 2300 5550
-F 0 "#PWR0155" H 2300 5400 50  0001 C CNN
-F 1 "+5V" H 2315 5723 50  0000 C CNN
-F 2 "" H 2300 5550 50  0001 C CNN
-F 3 "" H 2300 5550 50  0001 C CNN
-	1    2300 5550
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0157
 U 1 1 5CA24CF2
 P 2100 4850
@@ -979,12 +968,12 @@ $Comp
 L Device:Crystal Y1
 U 1 1 5C8C5C64
 P 3150 6750
-F 0 "Y1" V 3196 6619 50  0000 R CNN
-F 1 "32.768 kHz" V 3105 6619 50  0000 R CNN
+F 0 "Y1" V 3104 6881 50  0000 L CNN
+F 1 "32.768 kHz" V 3195 6881 50  0000 L CNN
 F 2 "Crystal:Crystal_DS26_D2.0mm_L6.0mm_Horizontal" H 3150 6750 50  0001 C CNN
 F 3 "~" H 3150 6750 50  0001 C CNN
 	1    3150 6750
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2700 6650 2700 6950
@@ -1187,37 +1176,6 @@ F 3 "~" H 5100 2050 50  0001 C CNN
 	1    5100 2050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 5CA3337C
-P 2450 5800
-F 0 "C2" H 2542 5846 50  0000 L CNN
-F 1 "104" H 2542 5755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2450 5800 50  0001 C CNN
-F 3 "~" H 2450 5800 50  0001 C CNN
-	1    2450 5800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 5550 2300 5650
-Wire Wire Line
-	2300 5650 2450 5650
-Wire Wire Line
-	2450 5650 2450 5700
-Connection ~ 2300 5650
-$Comp
-L power:GND #PWR0122
-U 1 1 5CA48238
-P 2450 5900
-F 0 "#PWR0122" H 2450 5650 50  0001 C CNN
-F 1 "GND" H 2455 5727 50  0000 C CNN
-F 2 "" H 2450 5900 50  0001 C CNN
-F 3 "" H 2450 5900 50  0001 C CNN
-	1    2450 5900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 5650 2300 6050
 $Comp
 L power:+5V #PWR0123
 U 1 1 5CA72611
@@ -1758,5 +1716,20 @@ F 2 "Clock_Footprints:U262-16XN-4BVC11" H 4050 1150 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4050 1150 50  0001 C CNN
 	1    3900 1150
 	0    1    1    0   
+$EndComp
+Text Label 2700 4250 0    50   ~ 0
+D+
+Text Label 2700 4350 0    50   ~ 0
+D-
+$Comp
+L power:+5V #PWR0155
+U 1 1 5CA24AC6
+P 2300 6050
+F 0 "#PWR0155" H 2300 5900 50  0001 C CNN
+F 1 "+5V" H 2315 6223 50  0000 C CNN
+F 2 "" H 2300 6050 50  0001 C CNN
+F 3 "" H 2300 6050 50  0001 C CNN
+	1    2300 6050
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
