@@ -1,2 +1,4 @@
-# barclock-hardware
-PCB files and other hardware sources for the LED Bar Clock
+# FILO Hardware
+KiCAD Schematics, Footprints, PCB files and other hardware sources
+
+Also includes a BOM from LCSC
