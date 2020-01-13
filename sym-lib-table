@@ -1,4 +1,4 @@
 (sym_lib_table
   (lib (name Clock_Symbols)(type Legacy)(uri ${KIPRJMOD}/Clock_Symbols.lib)(options "")(descr ""))
-  (lib (name FILO_Clock-rescue)(type Legacy)(uri ${KIPRJMOD}/FILO_Clock-rescue.lib)(options "")(descr ""))
+  (lib (name FIFO_Clock-rescue)(type Legacy)(uri ${KIPRJMOD}/FIFO_Clock-rescue.lib)(options "")(descr ""))
 )
