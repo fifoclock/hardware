@@ -1,8 +1,8 @@
 EESchema Schematic File Version 4
-LIBS:LED_Bar_Clock-cache
-EELAYER 29 0
+LIBS:FIFO_Clock-cache
+EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -80,17 +80,15 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    7200 1700
 	0    -1   -1   0   
 $EndComp
-Text Notes 7320 7520 0    79   ~ 0
-LED Bar Clock
-Text Notes 10570 7640 0    50   ~ 0
-1.0
-Text Notes 7290 7240 0    50   ~ 0
+Text Notes 6690 7740 0    79   ~ 0
+FIFO Clock
+Text Notes 9880 7870 0    50   ~ 0
+1.1
+Text Notes 6690 7470 0    50   ~ 0
 1
-Text Notes 7380 7240 0    50   ~ 0
-1
-Text Notes 8110 7640 0    50   ~ 0
-2018-11-17
-Text Notes 7840 6660 0    50   ~ 0
+Text Notes 7440 7870 0    50   ~ 0
+2020-02-01
+Text Notes 6620 7110 0    100  ~ 0
 Designed By Eddie Zhou and Connor Northway
 $Comp
 L MCU_Microchip_ATtiny:ATtiny84A-SSU U1
@@ -1732,4 +1730,6 @@ Wire Wire Line
 	3150 2200 3150 2500
 Wire Wire Line
 	2700 2100 2700 2200
+Text Notes 6600 7470 0    50   ~ 0
+1
 $EndSCHEMATC
